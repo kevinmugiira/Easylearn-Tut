@@ -58,12 +58,12 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (!task.isSuccessful()) {
-                                Toast.makeText(MainActivity.this, "signUp Unsuccessful, Please try again", Toast.LENGTH_SHORT).show();
-
+                                startActivity(new Intent(MainActivity.this, LoginActivity.class));
 
                             }
                             else{
-                                startActivity(new Intent(MainActivity.this, HomeActivity.class));
+                                Toast.makeText(MainActivity.this, "signUp Unsuccessful, Please try again", Toast.LENGTH_LONG).show();
+
                             }
                         }
                     });

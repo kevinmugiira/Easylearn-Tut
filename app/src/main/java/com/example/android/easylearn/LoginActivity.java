@@ -78,11 +78,12 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (!task.isSuccessful()) {
-                                Toast.makeText(LoginActivity.this, "Login error, try again!", Toast.LENGTH_SHORT).show();
-                            }
-                            else {
                                 Intent intToHome = new Intent(LoginActivity.this, HomeActivity.class);
                                 startActivity(intToHome);
+                            }
+                            else {
+                                Toast.makeText(LoginActivity.this, "Login error, try again!", Toast.LENGTH_SHORT).show();
+
                             }
 
                         }
