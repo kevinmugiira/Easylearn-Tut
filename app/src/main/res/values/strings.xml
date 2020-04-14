@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Easylearn</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="not_registered_sign_up_here">Not Registered? Sign Up here!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="emaill">Email</string>
+    <string name="passwordd">password</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here!</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

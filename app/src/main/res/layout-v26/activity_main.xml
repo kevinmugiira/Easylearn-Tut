@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="@string/emaill" />
+        android:autofillHints="@string/email" />
 
     <EditText
         android:id="@+id/editText2"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        android:autofillHints="@string/passwordd" />
+        android:autofillHints="passwordd" />
 
     <TextView
         android:id="@+id/textView1"
